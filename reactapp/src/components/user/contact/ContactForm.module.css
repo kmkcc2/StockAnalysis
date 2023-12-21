@@ -1,0 +1,28 @@
+.container {
+  height: 100%vh;
+}
+.form {
+  height: 100vh;
+  margin-top: 5em;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.form input, textarea {
+  font-size: large;
+}
+.title {
+  min-height: 4em;
+  padding-left: 1em;
+}
+.body {
+  min-height: 4em;
+  padding-left: 1em;
+  padding-top: 1em;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 15em;
+}
+.subButton {
+  width: 15%;
+}

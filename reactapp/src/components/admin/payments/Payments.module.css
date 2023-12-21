@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  padding: 2em;
+}
+.tablePayments {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #d3d3c69f;
+  font-weight: bold;
+}
+.tablePaymentsTr, .tablePaymentsTd, .tablePaymentsTh {
+  border: 1px solid black;
+  padding: 1em;
+  width: 30%;
+}
+.tablePaymentsTd:nth-child(1), .tablePaymentsTh:nth-child(1) {
+  width: 10%;
+}
+.tablePaymentsTr:nth-child(even) {
+  background-color: #5FACAC;
+}

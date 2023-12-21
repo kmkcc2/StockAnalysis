@@ -1,0 +1,7 @@
+uzytkownik
+login: user@orc.com
+haslo: user1234
+
+admin
+login: admin@orc.com
+haslo: admin123

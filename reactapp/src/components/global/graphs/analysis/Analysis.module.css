@@ -1,0 +1,25 @@
+.container {
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+font-size: large;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.left {
+  width: 20%;
+}
+.right {
+  width: 80%;
+}
+.table2 {
+  min-width: 20%;
+  border-collapse: collapse;
+}
+.table2tr, .table2td, .table2th {
+  border: 1px solid black;
+  padding: 0.3em;
+  font-size: small;
+}

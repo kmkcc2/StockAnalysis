@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+:root {
+  --background: #d3d3c6c4;
+  --button: #e9ec0e;
+  --button-text: #292725;
+  --headline: #2a254bcc;
+  --paragraph: #2d334a;
+  --secondary: #e3f6f5;
+  --tertiary-light: #7dadad;
+  --tertiary: #5facac;
+  --tertiary-dark: #18acac;
+  --highlight: #ffd803;
+  --unavailable: #2d334a58;
+  --sidebar-mobile: #5facac7c;
+}
+a {
+  text-decoration: none;
+  color: var(--paragraph);
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  margin: 0;
+  color: var(--paragraph);
+  background-color: var(--background);
+  overflow: hidden;
+}
+
+body button {
+  background-color: var(--button);
+  color: var(--button-text);
+  font-size: large;
+}
+button {
+  border-radius: 0.5em;
+  border-style: none;
+  box-sizing: border-box;
+  color: var(--paragraph);
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  outline: none;
+  overflow: hidden;
+  padding: 0.5em;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-right: 0.5em;
+  min-width: 5em;
+}
+
+button:hover {
+  opacity: 0.75;
+}
+input {
+  outline: none;
+}
+.error {
+  color: red;
+}
+.warning {
+  color: yellow;
+}
+.success {
+  color: green;
+}
+h1 {
+  margin-top: 0;
+  padding-top: 0;
+}

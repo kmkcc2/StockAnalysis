@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 1em;
+}
+.parameters {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.parameters {
+  padding-left: 0.8em;
+}
+.leftCompany {
+  width: 100%;
+  text-align: left;
+}
+.rightCompany {
+  width: 100%;
+  text-align: left;
+
+}
+.conclusion {
+}

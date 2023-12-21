@@ -1,0 +1,27 @@
+.mainContainer{
+    width: 100%;
+    display:grid;
+    place-items: center;
+    padding: 0 2em 2em 2em;
+}
+.tableTrendings{
+    width: 100%;
+    font-size: 1.25em;
+    text-align: justify;
+    padding: 3em;
+    color:var(--background);
+    background-color: var(--headline);
+    border-radius: 0.5em;
+    box-shadow: 1px 1px 12px 0px rgb(0, 0, 0);
+}
+.tableTrendings th, td {
+    height: 1.5em;
+    border-bottom: 0.01em solid #16262E;
+}
+.tableTrendings td {
+    padding: 0.5em;
+}
+.header{
+    text-align: left;
+    padding: 1em;
+}

@@ -1,0 +1,91 @@
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+.col1 {
+  flex: 30%;
+}
+.col2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -12em;
+}
+.tableScrollable {
+  max-height: 80vh;
+  overflow-y: scroll;
+  box-shadow: 1px 1px 12px 0px rgb(0, 0, 0);
+  border-radius: 0.5em;
+}
+.tableScrollable table {
+  width: 100%;
+  text-align: center;
+  background-color: var(--headline);
+  color: var(--background);
+  padding: 2em;
+}
+.tableScrollable table tr:hover {
+  color: white;
+  background-color: var(--headline);
+}
+.tableScrollable th {
+  height: 2em;
+  border-bottom: 0.01em solid #16262e;
+  font-size: 1.3em;
+}
+.tableScrollable tr > td {
+  padding: 0.5em;
+  font-size: 1.2em;
+}
+.addCompany {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+}
+.addCompany input {
+  padding: 1em;
+  max-width: 45%;
+  margin-bottom: 1em;
+}
+.addCompany button {
+  width: 100%;
+}
+.addCompanyInputs{
+  display: flex;
+  justify-content: space-between;
+}
+.addCompanyButtons{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.radioTimeline {
+ display: flex;
+ gap: 1em;
+ padding: 1em;
+}
+.radioOption {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.radioOption input[type="radio"] {
+  transform: scale(2);
+}
+
+.errorLabel {
+  color: red;
+}
+@media only screen and (max-width: 890px) {
+  .row {
+    gap: 0.5em;
+  }
+  input {
+    margin-bottom: 1em;
+    min-height: 3em;
+  }
+}

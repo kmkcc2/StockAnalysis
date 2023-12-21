@@ -1,0 +1,65 @@
+.container {
+  padding: 1em 5em 5em 5em;
+}
+.container input {
+  padding: 1em;
+}
+.joinDate {
+  font-size: medium;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  font-size: x-large;
+}
+.left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.right {
+  width: 40%;
+  box-shadow: 0.1em 0.1em 1em;
+  padding: 2em;
+  border-radius: 0.5em;
+}
+.pay {
+  display: flex;
+  justify-content: space-between;
+
+}
+.credentials, .userInfo {
+display: flex;
+flex-direction: column;
+gap: 0.5em;
+}
+.payed {
+  color: green;
+}
+.unpayed {
+  color: red;
+}
+.radioTimeline {
+  display: flex;
+  gap: 1em;
+  padding: 1em;
+ }
+ .radioOption {
+   display: flex;
+   flex-direction: column;
+   gap: 0.5em;
+ }
+ .radioOption input[type="radio"] {
+   transform: scale(2);
+ }
+ .leftTop, .leftBottom {
+  box-shadow: 0.1em 0.1em 1em;
+  padding: 2em;
+  border-radius: 0.5em;
+  gap: 1em;
+}
+.errorLabel {
+  color: red;
+  font-size: medium;
+}

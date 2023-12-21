@@ -1,0 +1,99 @@
+.tooltiptext {
+  visibility: hidden;
+  background-color: rgba(0, 0, 0, 0.199);
+  color: var(--paragraph);
+  border-radius: 6px;
+  padding: 0.5em;
+  position: absolute;
+  left: 1em;
+  margin-top: -2.5em;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.hamburger {
+  width: 50px;
+  height: 50px;
+  background-image: url("./assets/hamburger.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  display: none;
+  cursor: pointer;
+  z-index: 999999;
+  transition-duration: 1000ms;
+}
+.card {
+  flex-direction: row;
+}
+.unavailable {
+  color: var(--unavailable)!important;
+  cursor: default !important;
+}
+.unavailable:hover {
+  background-color: var(--tertiary) !important;
+}
+.logout {
+  position: fixed;
+  bottom: 0;
+  color: var(--paragraph);
+}
+.SideBar {
+  background-color: var(--tertiary);
+  padding: 1em;
+  height: 100vh;
+  width: 14em;
+  margin-left: 0%;
+  position: inherit;
+  user-select: none;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transform: translate3d(0%,0,0);
+  font-weight: 600;
+}
+
+.SideBarOption {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 1em;
+  border-radius: 0.2em;
+  min-width: 80%;
+}
+
+.SideBarOption:hover {
+  background-color: var(--highlight);
+  cursor: pointer;
+}
+@media only screen and (min-width: 891px) {
+  .SideBar {
+    margin-left: 0 !important;
+  }
+}
+@media only screen and (max-width: 890px) {
+  .hamburger {
+    display: block;
+  }
+  .SideBar {
+    margin-left: -50%;
+    width: 50%;
+    position: absolute;
+    z-index: 9999;
+    background: var(--sidebar-mobile);
+    backdrop-filter: blur(8px);
+  }
+  .tooltip:hover .tooltiptext{
+    visibility: hidden !important;
+  }
+  .firstOption {
+    margin-top: 2em;
+  }
+}
+.SideBarUserEmail{
+  overflow-wrap: break-word;
+}

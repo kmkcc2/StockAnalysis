@@ -1,0 +1,48 @@
+.userRecord {
+  display: flex;
+  background-color: var(--headline);
+  color: var(--background);
+  margin-bottom: 1em;
+  border-radius: 0.2em;
+  position: relative;
+  z-index: 10;
+  justify-content: space-between;
+}
+
+.userRecordHover:hover {
+  cursor: pointer;
+  background-color: var(--highlight);
+  color: white;
+}
+.userProperty {
+  padding: 1em;
+  min-width: 30%;
+  overflow-wrap: break-word;
+  font-size: larger;
+
+}
+
+.userPropertyHeader {
+  background-color: var(--background);
+  color: var(--paragraph);
+  font-weight: 800;
+  display: flex;
+  border-radius: 0.2em;
+  margin-bottom: 1em;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 890px) {
+  .userRecord {
+    gap: 0em;
+  }
+  .userPropertyHeader {
+    gap: 0em;
+  }
+  .userProperty {
+    min-width: 33%;
+    gap: 0em;
+  }
+  .nameProperty, .emailProperty, .activeProperty {
+    font-size: small;
+  }
+}

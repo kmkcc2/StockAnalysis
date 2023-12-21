@@ -1,0 +1,75 @@
+.container {
+  padding: 1em 5em 5em 5em;
+}
+.container input {
+  padding: 1em;
+}
+.joinDate {
+  font-size: medium;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  font-size: x-large;
+}
+.left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.leftTop, .leftBottom {
+  box-shadow: 0.1em 0.1em 1em;
+  padding: 2em;
+  border-radius: 0.5em;
+  gap: 1em;
+}
+.right {
+  width: 40%;
+  box-shadow: 0.1em 0.1em 1em;
+  padding: 2em;
+  border-radius: 0.5em;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+}
+.container hr {
+  margin-left: 0;
+  margin-right: 0;
+}
+.pay {
+  display: flex;
+  justify-content: space-between;
+}
+.credentials {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+.credentials button {
+  width: 100%;
+}
+.payed {
+  color: green;
+}
+.unpayed {
+  color: red;
+}
+.errorLabel {
+  color: red;
+  font-size: medium;
+}
+.deleteAccount {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: flex-end;
+}
+.deleteAccount button {
+  width: 100%;
+}
+
+.deleteAccount button:hover {
+  background-color: red;
+}
